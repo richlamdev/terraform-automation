@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 0.14"
 
   backend "remote" {
-    organization = "terraform-automation"
+    organization = "richyworld"
 
     workspaces {
-      name = "terraform-automation"
+      name = "gh-actions-demo"
     }
   }
 }
